@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bejad</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+     <fieldset>
+        <legend>Give mr your information </legend>
+      <div>
+        <label for="name">Full your name</label>
+        <input type="text" placeholder="your name" required>
+      </div>
+      <br>
+      <div>
+        <label for="name">Full your email</label>
+        <input type="text" placeholder="your email" required>
+      </div>
+      <br>
+     <div>
+        <label for="name">Full your password (min 8 chars)</label>
+        <input type="text" placeholder="your password" required id="password" minlength="8" >
+      </div>
+     </fieldset>
+     <fieldset>
+            <legend>Preferences</legend>
+            
+            <label for="bday">Date of Birth:</label>
+            <input type="date" id="bday" name="bday">
+            
+            <label for="quantity">Number of items (1-10):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+   </fieldset>
+      
+    </fieldset>
+    <fieldset>
+       <legend>Your feedback</legend>
+      <label>
+      <input type="radio" name="rating" value="good" required> Good
+       </label>
+        <label>
+        <input type="radio" name="rating" value="average"> Average
+        </label>
+        <label>
+        <input type="radio" name="rating" value="bad"> Bad
+       </label>
+      <br>
+       <label>Comments</label>
+       <textarea name="comments" minlength="10" required></textarea>
+   </fieldset>
+   <button type="submit">Submit</button>
+   <button type="reset">Resat</button>
+ </form>
+ <div>
+   <h2>Thank you</h2>
+    <video src="vecteezy_animated-thank-you-luxury-cinematic-simple-animated-thank_21721883.mp4" controls autoplay width="500"></video>
+  </div>
+</body>
+</html>
